@@ -13,7 +13,22 @@
 to upload the owner's own short videos to the same channel on a schedule.</p>
 <p>The tool is not offered to other users. It only uploads videos created by the channel owner
 and reads basic information about the owner's channel.</p>
-<p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+<h2>YouTube API Services</h2>
+<p>German Publish uses YouTube API Services (YouTube Data API v3) to:</p>
+<ul>
+<li>upload the owner's videos to the owner's YouTube channel (<code>videos.insert</code>);</li>
+<li>confirm which channel is authorized (<code>channels.list</code>, mine=true);</li>
+<li>post one comment from the channel under the owner's own video (<code>commentThreads.insert</code>).</li>
+</ul>
+<p>By using German Publish you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+See also the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<h2>How it works</h2>
+<ol>
+<li>The owner signs in with Google (OAuth 2.0) and grants access to the channel.</li>
+<li>The tool uploads a finished video with its title and description.</li>
+<li>The owner can revoke access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+</ol>
+<p><b><a href="privacy.html">Privacy Policy</a></b> · <b><a href="terms.html">Terms of Service</a></b></p>
 <p>Contact: <a href="mailto:german.steam.trade@gmail.com">german.steam.trade@gmail.com</a></p>
 <hr>
 <p lang="ru">German Publish — личный инструмент владельца канала German Steam для выкладки собственных коротких роликов на свой канал.</p>
